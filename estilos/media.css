@@ -134,6 +134,140 @@
     }
 }
 
+@media  screen and (min-width:700px){
+    body{
+        font-family: "Segoe UI", sans-serif;
+        background-color: #362D73;
+    }
+
+    .cabecalho{
+        background-color: #362D73;
+        justify-content: center;
+        margin: 10px 10px 0px;
+        text-align: center;
+    }
+
+    #logo{
+        align-items: center;
+        padding: 20px;
+        width: 200px;
+        height: 100px;
+    }
+
+    nav{
+        padding: 0px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 4px;
+        background-color: #387357;
+    }
+
+    .titulo-med{
+        color: #387357;
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .img-med{
+        width: 80px;
+    }
+
+    figcaption > p{
+        font-size: 15px;
+        text-align: center;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #362D73;
+    }
+
+    .imagem{
+        padding-top: 25px;
+        background-color: white;
+        margin: 40px 100px 40px 100px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px black;
+    }  
+    
+    .falar{
+        margin-top: 25px;
+        color: #387357;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Rubik', sans-serif
+    }
+    
+    .botao{
+        margin-top: 30px;
+        width: 100px;
+        height: 34px;
+        background-color: #362D73;
+        color: white;
+        border: none;
+        box-shadow: 1px 1px 2px solid black;
+        font-family: 'Rubik', sans-serif
+    }
+    
+    .botao > a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+    
+    .titulo-redes{
+        margin-top: 25px;
+        color: #387357;
+        text-align: center;
+        font-size: 1em;
+        font-family: 'Rubik', sans-serif
+    }
+    
+    .img-redes{
+        width: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    footer{
+        background-color: #387357;
+        color: white;
+        text-align: center;
+        height: 50px;
+    }
+    
+    footer p{
+        padding: 8px;
+        font-size: 1em;
+    }
+    
+    footer > p > a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .text-rodape{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .text-rodape:hover{
+        color: #362D73;
+    }
+}
+
 
 @media  screen and (min-width: 992px){
     body{
