@@ -1,1 +1,296 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        font-family: "Segoe UI", sans-serif;
+        background-color: #362D73;
+    }
+
+    .cabecalho{
+        background-color: #362D73;
+        justify-content: center;
+        margin: 10px 10px 0px;
+        text-align: center;
+    }
+
+    #logo{
+        align-items: center;
+        padding: 20px;
+        width: 200px;
+        height: 100px;
+    }
+
+    nav{
+        padding: 0px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 4px;
+        background-color: #387357;
+    }
+
+    .titulo-med{
+        color: #387357;
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .img-med{
+        width: 80px;
+    }
+
+    figcaption > p{
+        font-size: 15px;
+        text-align: center;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #362D73;
+    }
+
+    .imagem{
+        padding-top: 25px;
+        background-color: white;
+        margin: 40px 100px 40px 100px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px black;
+    }  
+    
+    .falar{
+        margin-top: 25px;
+        color: #387357;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Rubik', sans-serif
+    }
+    
+    .botao{
+        margin-top: 30px;
+        width: 100px;
+        height: 34px;
+        background-color: #362D73;
+        color: white;
+        border: none;
+        box-shadow: 1px 1px 2px solid black;
+        font-family: 'Rubik', sans-serif
+    }
+    
+    .botao > a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+    
+    .titulo-redes{
+        margin-top: 25px;
+        color: #387357;
+        text-align: center;
+        font-size: 1em;
+        font-family: 'Rubik', sans-serif
+    }
+    
+    .img-redes{
+        width: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    footer{
+        background-color: #387357;
+        color: white;
+        text-align: center;
+        height: 50px;
+    }
+    
+    footer p{
+        padding: 8px;
+        font-size: 1em;
+    }
+    
+    footer > p > a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .text-rodape{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .text-rodape:hover{
+        color: #362D73;
+    }
+}
+
+
+@media  screen and (min-width: 992px){
+    body{
+        font-family: "Segoe UI", sans-serif;
+        background-color: #362D73;
+    }
+    
+    .cabecalho{
+        background-color: #362D73;
+        justify-content: center;
+        margin: 20px 20px 0px;
+        text-align: center;
+    }
+    
+    #logo{
+        align-items: center;
+        padding: 20px;
+        width: 400px;
+        height: 200px;
+    }
+    
+    nav{
+        padding: 0px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: #387357;
+    }
+    
+    nav > a:hover{
+        color: #362D73;
+        transform: translate(-3px,-3px);
+        box-shadow: 5px 5px 10px #ffffff17;
+        transition: transform 0.5s;
+    }
+    
+    .titulo-med{
+        color: #387357;
+        text-align: center;
+        font-size: 3em;
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .divmed{
+        text-align: center;
+    }
+    
+    .img-med{
+        width: 150px;
+    }
+    
+    figcaption > p{
+        font-size: 22px;
+        text-align: center;
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: #362D73;
+    }
+    
+    .imagem{
+        padding-top: 50px;
+        background-color: white;
+        margin: 80px 200px 80px 200px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px black;
+    }
+    
+    .container{
+        text-align: center;
+    }
+    
+    .falar{
+        margin-top: 50px;
+        color: #387357;
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Rubik', sans-serif
+    }
+    
+    .botao{
+        margin-top: 30px;
+        width: 200px;
+        height: 50px;
+        background-color: #362D73;
+        color: white;
+        border: none;
+        box-shadow: 1px 1px 2px solid black;
+        font-family: 'Rubik', sans-serif
+    }
+    
+    .botao > a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .botao:hover{
+        background-color: #362D73;
+        color: white;
+        transform: translate(-3px,-3px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.604);
+        transition: transform 0.5s;
+    }
+    
+    .redes-sociais{
+        text-align: center;
+    }
+    
+    .titulo-redes{
+        margin-top: 50px;
+        color: #387357;
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Rubik', sans-serif
+    }
+    
+    .img-redes{
+        width: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    footer{
+        background-color: #387357;
+        color: white;
+        text-align: center;
+        height: 50px;
+    }
+    
+    footer p{
+        padding: 8px;
+        font-size: 1.2em;
+    }
+    
+    footer > p > a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .text-rodape{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .text-rodape:hover{
+        color: #362D73;
+    }
+}
