@@ -56,16 +56,24 @@ nav > a:hover{
     margin-bottom: 20px;
 }
 
-.divmed{
+#imagens{
     text-align: center;
 }
 
-.img-med{
-    width: 150px;
+
+.divmed{
+    display: inline-block;
 }
 
+.img-med{
+    margin-bottom: 20px;
+    width: 100px;
+}
+.legenda{
+    float: right;
+}
 figcaption > p{
-    font-size: 22px;
+    font-size: 23px;
     text-align: center;
     margin-right: 100px;
     margin-left: 100px;
@@ -75,12 +83,47 @@ figcaption > p{
     color: #362D73;
 }
 
-.imagem{
+.divmed > p{
+    font-size: 20px;
+    text-align: center;
+    color: #325041;
+}
+
+.principal{
     padding-top: 50px;
     background-color: white;
     margin: 80px 200px 80px 200px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px black;
+}
+
+.titulo-alimentos{
+    margin-top: 30px;
+    color:#387357;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.sessao-alimentos{
+    text-align: center;
+}
+
+.divalimentos{
+    display: inline-block;
+}
+
+.img-alimentos{
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.divalimentos > p{
+    font-size: 15px;
+    color: #387357;
 }
 
 .container{
